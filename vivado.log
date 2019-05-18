@@ -1,0 +1,111 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Tue Apr 23 14:30:51 2019
+# Process ID: 11856
+# Current directory: C:/Users/xushu/Desktop/FPGa/project/freDetect_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29540 C:\Users\xushu\Desktop\FPGa\project\freDetect_2\freDetect_2.xpr
+# Log file: C:/Users/xushu/Desktop/FPGa/project/freDetect_2/vivado.log
+# Journal file: C:/Users/xushu/Desktop/FPGa/project/freDetect_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.ip_user_files'.
+WARNING: [filemgmt 56-3] IPStaticSourceDir: Could not find the directory 'C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.ip_user_files/ipstatic'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 777.703 ; gain = 183.637
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.srcs/sources_1/new/IP_seg_disp.v" into library work [C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.srcs/sources_1/new/IP_seg_disp.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.srcs/sources_1/new/control.v" into library work [C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.srcs/sources_1/new/control.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.srcs/sources_1/new/counter_10.v" into library work [C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.srcs/sources_1/new/counter_10.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.srcs/sources_1/new/div.v" into library work [C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.srcs/sources_1/new/div.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.srcs/sources_1/new/freDetect.v" into library work [C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.srcs/sources_1/new/freDetect.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.srcs/sources_1/new/latch.v" into library work [C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.srcs/sources_1/new/latch.v:1]
+[Tue Apr 23 14:31:10 2019] Launched synth_1...
+Run output will be captured here: C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.runs/synth_1/runme.log
+launch_runs impl_1
+[Tue Apr 23 14:31:55 2019] Launched impl_1...
+Run output will be captured here: C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.runs/impl_1/runme.log
+reset_run impl_1
+launch_runs impl_1
+[Tue Apr 23 14:37:51 2019] Launched impl_1...
+Run output will be captured here: C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Tue Apr 23 14:39:06 2019] Launched impl_1...
+Run output will be captured here: C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.runs/impl_1/runme.log
+open_hw
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.4
+  **** Build date : Nov 17 2015-18:01:07
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121]
+Check to make sure the cable targets connected to this machine are properly connected
+and powered up, then use the disconnect_hw_server and connect_hw_server commands
+to re-register the hardware targets.
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210274532811A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210274532811A]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210274532811A
+set_property PROGRAM.FILE {C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.runs/impl_1/freDetect.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.runs/impl_1/freDetect.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.runs/impl_1/freDetect.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+refresh_hw_device [lindex [get_hw_devices] 0]
+ERROR: [Labtools 27-2312] Device xc7a100t_0 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.runs/impl_1/freDetect.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210274532811A
+close_hw
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 23 14:45:21 2019...

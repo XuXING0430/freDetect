@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Tue Apr 23 14:30:51 2019
+# Process ID: 11856
+# Current directory: C:/Users/xushu/Desktop/FPGa/project/freDetect_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29540 C:\Users\xushu\Desktop\FPGa\project\freDetect_2\freDetect_2.xpr
+# Log file: C:/Users/xushu/Desktop/FPGa/project/freDetect_2/vivado.log
+# Journal file: C:/Users/xushu/Desktop/FPGa/project/freDetect_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.xpr
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210274532811A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210274532811A]
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.runs/impl_1/freDetect.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.runs/impl_1/freDetect.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.runs/impl_1/freDetect.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.runs/impl_1/freDetect.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw

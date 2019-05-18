@@ -1,0 +1,67 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Tue Apr 23 15:48:23 2019
+| Host         : DESKTOP-0R0P50T running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file freDetect_control_sets_placed.rpt
+| Design       : freDetect
+| Device       : xc7a100t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    14 |
+| Minimum Number of register sites lost to control set restrictions |    45 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              35 |           11 |
+| No           | No                    | Yes                    |              10 |            5 |
+| No           | Yes                   | No                     |              30 |            8 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              64 |           14 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------------+-----------------------+---------------------+------------------+----------------+
+|      Clock Signal     |     Enable Signal     |   Set/Reset Signal  | Slice Load Count | Bel Load Count |
++-----------------------+-----------------------+---------------------+------------------+----------------+
+|  clk_1Hz_BUFG         |                       | u_latch/d0_reg[0]_0 |                1 |              3 |
+|  u_div/out[0]         |                       |                     |                1 |              3 |
+|  fin_BUFG             | counter6/E[0]         | u_latch/d0_reg[0]_0 |                1 |              4 |
+|  fin_BUFG             | counter5/E[0]         | u_latch/d0_reg[0]_0 |                1 |              4 |
+|  fin_BUFG             | counter4/E[0]         | u_latch/d0_reg[0]_0 |                1 |              4 |
+|  fin_BUFG             | counter3/E[0]         | u_latch/d0_reg[0]_0 |                1 |              4 |
+|  fin_BUFG             | counter2/E[0]         | u_latch/d0_reg[0]_0 |                1 |              4 |
+|  fin_BUFG             | counter1/E[0]         | u_latch/d0_reg[0]_0 |                1 |              4 |
+|  fin_BUFG             | counter0/E[0]         | u_latch/d0_reg[0]_0 |                1 |              4 |
+|  fin_BUFG             | u_control/q_reg[3][0] | u_latch/d0_reg[0]_0 |                1 |              4 |
+|  fin_BUFG             |                       | u_latch/d0_reg[0]_0 |                4 |              7 |
+|  clk_100mhz_IBUF_BUFG |                       | u_div/clk_1Hz_2     |                8 |             30 |
+|  clk_1Hz_BUFG         | u_control/latch_en    | u_latch/d0_reg[0]_0 |                6 |             32 |
+|  clk_100mhz_IBUF_BUFG |                       |                     |               10 |             32 |
++-----------------------+-----------------------+---------------------+------------------+----------------+
+
+

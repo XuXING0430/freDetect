@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Tue Apr 23 15:50:59 2019
+# Process ID: 25144
+# Current directory: C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.runs/impl_1
+# Command line: vivado.exe -log freDetect.vdi -applog -messageDb vivado.pb -mode batch -source freDetect.tcl -notrace
+# Log file: C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.runs/impl_1/freDetect.vdi
+# Journal file: C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source freDetect.tcl -notrace
+Command: open_checkpoint freDetect_routed.dcp
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.runs/impl_1/.Xil/Vivado-25144-/webtalk/labtool_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:01:03 . Memory (MB): peak = 50.207 ; gain = 0.016
+INFO: [Common 17-206] Exiting Webtalk at Tue Apr 23 15:52:10 2019...
+ERROR: [Common 17-101] Failed to write attributes to C:/Users/xushu/Desktop/FPGa/project/freDetect_2/freDetect_2.runs/impl_1/.Xil/Vivado-25144-/dcp/freDetect.xn.
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 23 15:52:10 2019...
